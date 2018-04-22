@@ -1,0 +1,123 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Rehab} \headerlastnamestyle{Ammar} \\
+	\vspace{2mm}
+	{\faEnvelope\ eng.rehab98@gmail.com} | {\faMobile\ +201128037537} | {\faMapMarker\ Giza, Egypt} | {\faLink\ https://github.com/rehabammar}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.Sc. (Undergraduate) in Biomedical Engineering}
+	{Faculty of Engineering, Cairo University}
+	{Giza, Egypt}
+	{Sep 2015 – Jun 2020}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Public Speaking:  & {\skill{ }} \\
+		Writing Short Stories:  & {\skill{ Arabic Literature}} \\
+		Programming:  & {\skill{ Modern C++ (2011) - Beginner Level}} \\
+		Development Ecosystem:  & {\skill{ Git, CMake (Build System)}} \\
+		Technical Writing:  & {\skill{ Latex, Markdown, MS Word}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Improving the Quality of ECG Signals}
+	{ECG Interface Circuit Design}
+	{Arduino}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{}
+	{Sensitive Gloves for Painless People}
+	{Arduino}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{}
+	{Wave Generator and Displayer}
+	{}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+\cvsection{Attended Events \& Workshops}
+\begin{itemize}
+	\item Medical Planning Solutions Workshop (MPCS), Cairo, 2018.
+	\item Siemens Helthineers Workshop, Cairo, 2018.
+	\item Biomedical Careers in the Egyptian Market (BECEM17), Cairo, 2017.
+	\item 1$_{st}$ Beat Event, Cairo, 2018.
+\end{itemize}
+
+\ 
+\end{document}
